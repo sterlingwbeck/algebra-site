@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Algebra 1 Mastery</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800">
+  <header class="bg-blue-800 text-white p-4 shadow-md">
+    <div class="container mx-auto">
+      <h1 class="text-3xl font-bold">Algebra 1 Mastery</h1>
+      <p class="text-sm">Structured. Teacher-Led. No Live Classes.</p>
+    </div>
+  </header>
+
+  <main class="container mx-auto p-6">
+    <section class="mb-8">
+      <h2 class="text-2xl font-semibold mb-4">Welcome to the Course</h2>
+      <p class="mb-2">Complete Algebra 1 in 12 weeks. Stay on schedule, get instant feedback, and master every topic.</p>
+      <button class="bg-blue-600 text-white px-4 py-2 rounded">Start Week 1</button>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-xl font-semibold mb-4">📺 Lesson Videos</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div class="bg-white rounded shadow p-4">
+          <h3 class="font-bold text-lg mb-2">Variables & Expressions</h3>
+          <video controls class="w-full">
+            <source src="/videos/variables.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <div class="bg-white rounded shadow p-4">
+          <h3 class="font-bold text-lg mb-2">Solving One-Step Equations</h3>
+          <video controls class="w-full">
+            <source src="/videos/onestep.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+        <!-- More lessons go here -->
+      </div>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-xl font-semibold mb-4">🧪 Practice & Quizzes</h2>
+      <form class="bg-white p-6 rounded shadow space-y-4">
+        <div>
+          <label class="block font-semibold mb-1">What is the value of x in: 2x + 3 = 11?</label>
+          <input type="text" class="w-full border rounded px-3 py-2" placeholder="Your answer" />
+        </div>
+        <div>
+          <label class="block font-semibold mb-1">Simplify: 3(x + 4) - 2x</label>
+          <input type="text" class="w-full border rounded px-3 py-2" placeholder="Your answer" />
+        </div>
+        <button type="submit" class="bg-green-600 text-white px-4 py-2 rounded">Submit Answers</button>
+      </form>
+    </section>
+
+    <section>
+      <h2 class="text-xl font-semibold mb-4">📄 Worksheets & PDF Downloads</h2>
+      <ul class="list-disc list-inside">
+        <li><a href="/pdfs/week1-worksheet.pdf" class="text-blue-700 hover:underline">Week 1 Worksheet</a></li>
+        <li><a href="/pdfs/week1-answerkey.pdf" class="text-blue-700 hover:underline">Week 1 Answer Key</a></li>
+        <!-- More downloads go here -->
+      </ul>
+    </section>
+  </main>
+
+  <footer class="bg-blue-800 text-white text-center p-4 mt-12">
+    <p>&copy; 2025 Algebra 1 Mastery | Built for learners by AI.</p>
+  </footer>
+</body>
+</html>
